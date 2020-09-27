@@ -4,10 +4,10 @@ public class MediaArtimetica {
 
 	public static void main(String[] args) {
 		System.out.println("Introduceti doua numere pozitive: ");
-		int b,c=0;
+		double b,c=0;
 		for(int i = 1; i<3;i++) {
 			Scanner a = new Scanner(System.in);
-			b = a.nextInt();
+			b = a.nextDouble();
 			c=c+b;
 			
 		}
